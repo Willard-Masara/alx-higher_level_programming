@@ -1,14 +1,18 @@
 #!/usr/bin/python3
+# task 7
+
+
 def add_tuple(tuple_a=(), tuple_b=()):
-    a = tuple_a + (0, 0)
-    b = tuple_b + (0, 0)
-    result = (a[0] + b[0], a[1] + b[1])
-    return result
+    if len(tuple_a) < 2:
+        if len(tuple_a) == 0:
+            tuple_a = 0, 0
+        else:
+            tuple_a = tuple_a[0], 0
+    if len(tuple_b) < 2:
+        if len(tuple_b) == 0:
+            tuple_b = 0, 0
+        else:
+            tuple_b = tuple_b[0], 0
 
-
-tuple1 = (1, 2)
-tuple2 = (3, 4)
-
-result = add_tuple(tuple1, tuple2)
-print(result)
+    return (tuple_a[0] + tuple_b[0], tuple_a[1] + tuple_b[1])
 
