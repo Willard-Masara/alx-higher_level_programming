@@ -1,1 +1,1 @@
-THis is a read me for the python classes and more stuff
+this is the readme fo the project on more python

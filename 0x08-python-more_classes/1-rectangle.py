@@ -3,7 +3,7 @@
 
 
 class Rectangle:
-"""now we are setting attributes of the rectangle"""
+    """now we are setting attributes of the rectangle"""
     def __init__(self, width=0, height=0):
         self.__width = 0
         self.__height = 0
