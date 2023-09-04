@@ -3,5 +3,5 @@
 
 
 class Rectangle:
-    """This is an empyt rectangle class"""
+    """This is an empyt rectangle class""
     pass
