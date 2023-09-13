@@ -1,11 +1,14 @@
 #!/usr/bin/python3
-# task 13
+"""
+Module for append_after method.
+"""
 
 
 def append_after(filename="", search_string="", new_string=""):
     '''Method for inserting text after search string.'''
     lines = []
-    with op   lines = f.readlines()
+    with open(filename, "r", encoding="utf-8") as f:
+        lines = f.readlines()
         i = 0
         while i < len(lines):
             if search_string in lines[i]:
