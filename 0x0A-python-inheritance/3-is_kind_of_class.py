@@ -1,11 +1,9 @@
 #!/usr/bin/python3
 """
-checks whether obj is instance of inheriting class
+Contains the is_kind_of_class function
 """
 
+
 def is_kind_of_class(obj, a_class):
- """ to return true or false as case may be """
-    if isinstance(obj, a_class):
-        return True
-    else:
-        return FalsE
+    """True if obj is an instance or inherited from a_class, else False"""
+    return (isinstance(obj, a_class))
