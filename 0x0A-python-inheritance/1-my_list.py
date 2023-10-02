@@ -1,14 +1,15 @@
 #!/usr/bin/python3
 """
-this task is about inheriting from another class
+contains the MyList class
 """
 
+
 class MyList(list):
-	"""now here we are initializing the class MyList first"""
-    def __init__(self, *args):
-        super().__init__(*args)
+    """a subclass of list"""
+    def __init__(self):
+        """initializes the object"""
+        super().__init__()
 
     def print_sorted(self):
-    """the crucial part of sorting out the list"""
-        sorted_list = sorted(self)
-        print(sorted_list)
+        """prints the sorted list"""
+        print(sorted(self))
