@@ -4,8 +4,6 @@
 -- The database name is passed as an argument to the MySQL command
 
 -- Select score and count the number of records for each score, label the count as 'number'
-
-
 SELECT score, COUNT(*) AS number
 FROM hbtn_0c_0.second_table
 GROUP BY score

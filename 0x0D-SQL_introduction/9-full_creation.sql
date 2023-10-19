@@ -4,8 +4,6 @@
 -- The database name is passed as an argument to the MySQL command
 
 -- Create the second_table if it does not already exist
-
-
 CREATE TABLE IF NOT EXISTS hbtn_0c_0.second_table (
     id INT,
     name VARCHAR(256),
