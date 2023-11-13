@@ -1,5 +1,5 @@
 #!/usr/bin/node
-function executeXTimes(x, theFunction) {
+exports.executeXTimes function (x, theFunction) {
     for (let i = 0; i < x; i++) {
         theFunction();
     }
