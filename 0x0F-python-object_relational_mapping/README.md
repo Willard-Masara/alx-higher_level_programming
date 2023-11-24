@@ -1,0 +1,1 @@
+This is the Object relational mapping projct descr. This project requires a basic understanding of sql, MYSQL and d introduces mysqlalchemy and mysqldb, whci are cool ways to achieve the same woith sql!
